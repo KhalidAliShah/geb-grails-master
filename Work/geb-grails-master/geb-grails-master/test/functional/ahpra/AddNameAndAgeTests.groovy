@@ -17,7 +17,7 @@ class AddTwoNamesTests {
     }
 //this is the update of the update
     @Test
-    void TwoNameTest() {
+    void AddNameAndAge() {
         Browser.drive {
             to PhysioListPage
             at PhysioListPage
@@ -25,8 +25,6 @@ class AddTwoNamesTests {
             at CreatePhysioPage
             nameField.click()
             nameField.value("Kim Smith")
-            anotherNameField.click()
-            anotherNameField.value("Khalid Ali")
             createButton.click()
             at ShowPhysioPage
             assert physioCreatedMessage.text().contains("created")
