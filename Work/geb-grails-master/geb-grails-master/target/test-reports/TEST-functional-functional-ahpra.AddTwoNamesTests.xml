@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="2" failures="0" hostname="Khalid-PC" name="ahpra.AddTwoNamesTests" tests="2" time="13.806" timestamp="2016-08-22T05:11:53">
+  <properties />
+  <testcase classname="ahpra.AddTwoNamesTests" name="normalName" time="13.292">
+    <error message="No such property: anotherNameField for class: ahpra.AddTwoNamesTests" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: anotherNameField for class: ahpra.AddTwoNamesTests
+	at ahpra.AddTwoNamesTests$_normalName_closure1.doCall(AddTwoNamesTests.groovy:28)
+	at geb.Browser.drive(Browser.groovy:884)
+	at geb.Browser.drive(Browser.groovy:854)
+	at ahpra.AddTwoNamesTests.normalName(AddTwoNamesTests.groovy:21)
+</error>
+  </testcase>
+  <testcase classname="ahpra.AddTwoNamesTests" name="normalNameAndAge" time="0.513">
+    <error message="No such property: ageField for class: ahpra.AddTwoNamesTests" type="groovy.lang.MissingPropertyException">groovy.lang.MissingPropertyException: No such property: ageField for class: ahpra.AddTwoNamesTests
+	at ahpra.AddTwoNamesTests$_normalNameAndAge_closure2.doCall(AddTwoNamesTests.groovy:46)
+	at geb.Browser.drive(Browser.groovy:884)
+	at geb.Browser.drive(Browser.groovy:854)
+	at ahpra.AddTwoNamesTests.normalNameAndAge(AddTwoNamesTests.groovy:39)
+</error>
+  </testcase>
+  <system-out><![CDATA[--Output from normalName--
+--Output from normalNameAndAge--
+]]></system-out>
+  <system-err><![CDATA[--Output from normalName--
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 43884
+Only local connections are allowed.
+--Output from normalNameAndAge--
+]]></system-err>
+</testsuite>

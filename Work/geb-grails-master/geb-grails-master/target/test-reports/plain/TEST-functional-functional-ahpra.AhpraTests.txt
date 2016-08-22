@@ -1,0 +1,13 @@
+Testsuite: ahpra.AhpraTests
+Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 2.529 sec
+------------- Standard Output ---------------
+--Output from normalName--
+--Output from testLoadOfAhpraHomePage--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from normalName--
+--Output from testLoadOfAhpraHomePage--
+------------- ---------------- ---------------
+
+Testcase: normalName took 1.616 sec
+Testcase: testLoadOfAhpraHomePage took 0.91 sec

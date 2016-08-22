@@ -1,0 +1,2 @@
+--Output from normalName--
+--Output from normalNameAndAge--

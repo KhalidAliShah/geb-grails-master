@@ -1,0 +1,4 @@
+--Output from normalName--
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 43884
+Only local connections are allowed.
+--Output from normalNameAndAge--

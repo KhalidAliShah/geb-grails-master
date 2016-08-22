@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Khalid-PC" name="ahpra.AhpraTests" tests="2" time="2.529" timestamp="2016-08-22T05:12:07">
+  <properties />
+  <testcase classname="ahpra.AhpraTests" name="normalName" time="1.616" />
+  <testcase classname="ahpra.AhpraTests" name="testLoadOfAhpraHomePage" time="0.91" />
+  <system-out><![CDATA[--Output from normalName--
+--Output from testLoadOfAhpraHomePage--
+]]></system-out>
+  <system-err><![CDATA[--Output from normalName--
+--Output from testLoadOfAhpraHomePage--
+]]></system-err>
+</testsuite>

@@ -1,0 +1,31 @@
+Testsuite: ahpra.AddTwoNamesTests
+Tests run: 2, Failures: 0, Errors: 2, Time elapsed: 13.806 sec
+------------- Standard Output ---------------
+--Output from normalName--
+--Output from normalNameAndAge--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from normalName--
+Starting ChromeDriver 2.20.353145 (343b531d31eeb933ec778dbcf7081628a1396067) on port 43884
+Only local connections are allowed.
+--Output from normalNameAndAge--
+------------- ---------------- ---------------
+
+Testcase: normalName took 13.292 sec
+	Caused an ERROR
+No such property: anotherNameField for class: ahpra.AddTwoNamesTests
+groovy.lang.MissingPropertyException: No such property: anotherNameField for class: ahpra.AddTwoNamesTests
+	at ahpra.AddTwoNamesTests$_normalName_closure1.doCall(AddTwoNamesTests.groovy:28)
+	at geb.Browser.drive(Browser.groovy:884)
+	at geb.Browser.drive(Browser.groovy:854)
+	at ahpra.AddTwoNamesTests.normalName(AddTwoNamesTests.groovy:21)
+
+Testcase: normalNameAndAge took 0.513 sec
+	Caused an ERROR
+No such property: ageField for class: ahpra.AddTwoNamesTests
+groovy.lang.MissingPropertyException: No such property: ageField for class: ahpra.AddTwoNamesTests
+	at ahpra.AddTwoNamesTests$_normalNameAndAge_closure2.doCall(AddTwoNamesTests.groovy:46)
+	at geb.Browser.drive(Browser.groovy:884)
+	at geb.Browser.drive(Browser.groovy:854)
+	at ahpra.AddTwoNamesTests.normalNameAndAge(AddTwoNamesTests.groovy:39)
+
