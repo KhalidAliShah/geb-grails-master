@@ -6,7 +6,7 @@ import geb.Configuration
 import static org.junit.Assert.*
 import org.junit.*
 
-class AddTwoNamesTests {
+class AddNameAndAgeTests {
 
     @Before
     void setUp() {
